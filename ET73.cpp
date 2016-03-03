@@ -129,5 +129,5 @@
       //Sets the interval in between each 
       //*************************************************************** 
       void ET73::setSampleInterval(int myinterval){
-        ET73::sample_interval = sample_interval;
+        ET73::sample_interval = myinterval;
       };
