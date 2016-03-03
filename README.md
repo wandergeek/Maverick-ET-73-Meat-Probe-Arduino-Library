@@ -2,11 +2,11 @@
 An Arduino library for easily integrating the affordable and widely-available Maverick ET-73 meat and smoker probe
 
 ## Parts Needed:
-1 - 5v Arduino
-1 - Maverick ET-73 replacement Probes for meat or smoker(the only difference is the tip) Part Numbers PR-004 or PR-005
-1 - 2.5mm mono PCB mount jack
-1 - 22k Ohm Resistor
-- A breadboard or another way to wire the components together
+* 1 - 5v Arduino
+* 1 - Maverick ET-73 replacement Probes for meat or smoker(the only difference is the tip) Part Numbers PR-004 or PR-005
+* 1 - 2.5mm mono PCB mount jack
+* 1 - 22k Ohm Resistor
+* - A breadboard or another way to wire the components together
 
 
 ## Wiring the Probe to the arduino:
@@ -16,7 +16,7 @@ An Arduino library for easily integrating the affordable and widely-available Ma
 Once the 2.5mm is wired up as shown, you can plug the meat probe into the jack. 
 
 ## Basic Usage:
-     #include <ET73.h> // First we must include the ET73 Library
+     #include <ET73.h> // First we must include the ET73 Library found here
      
      #define MEAT_PROBE_PIN 2 //Now we define which analog pin we're going to read our probe from
      
@@ -58,7 +58,7 @@ Once the 2.5mm is wired up as shown, you can plug the meat probe into the jack.
 
 
 ## To Do:
--re-write sampling funciton code so it doesn't block program while sampling
--Test Kelvin and Celcius
--Create Probe Buffer offset for calibration
+* -re-write sampling funciton code so it doesn't block program while sampling
+* -Test Kelvin and Celcius
+* -Create Probe Buffer offset for calibration
  
