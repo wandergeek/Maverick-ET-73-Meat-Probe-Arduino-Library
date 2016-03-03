@@ -2,7 +2,7 @@
 //************************************************************************
 //ARDUINO ET-73 MEAT & PIT PROBE LIBRARY 
 //By: Skye Perry
-//Version 1.0.2  Last Modified: 216-03-02
+//Version 1.0.2  Last Modified: 2016-03-02
 //This Library is licensed under a GPLv3 License
 //Tested with Maverick Smoker Probes for the ET73. PN: PR-004(smoker probe) & PR-005(meat probe)
 //************************************************************************
