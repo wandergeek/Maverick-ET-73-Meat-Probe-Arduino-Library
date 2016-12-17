@@ -9,7 +9,7 @@ An Arduino library for easily integrating the affordable and widely-available Ma
 * A breadboard or another way to wire the components together
 
 
-## Wiring the Probe to the arduino:
+## Wiring the Probe to the arduino: * code in this repository uses pin a2
 ![Arduino Meat Probe Wiring](https://github.com/skyeperry1/Maverick-ET-73-Meat-Probe-Arduino-Library/blob/master/ET-73.Drawing.jpg)
 
 
