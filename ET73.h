@@ -17,13 +17,14 @@
  #include "WProgram.h"
 #endif
 
+
 class ET73 {
     private:
       //Constants for the ET-73 and Wiring Schematic            
-      const  long double STEINHART_HART_COEF_A = 2.3067434E-4;
-      const  long double STEINHART_HART_COEF_B = 2.3696596E-4;
-      const  long double STEINHART_HART_COEF_C = 1.2636414E-7;
-      const int RESISTOR_VALUE = 22000;
+      const  long double STEINHART_HART_COEF_A = 5.2668241E-4;
+      const  long double STEINHART_HART_COEF_B = 2.0037400E-4;
+      const  long double STEINHART_HART_COEF_C = 2.5703090E-8;
+      const int RESISTOR_VALUE = 21920;
 
       //Samples and time Attributes
       int PIN;
